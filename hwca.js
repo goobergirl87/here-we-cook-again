@@ -12,3 +12,9 @@ class Recipe {
     this.ingredients = ingredients;
   }
 }
+
+class Library {
+  recipeLibrary = [];
+}
+
+const library = new Library();
