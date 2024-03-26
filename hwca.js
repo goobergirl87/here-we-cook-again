@@ -1,3 +1,5 @@
 "use strict";
 
-class Recipe {}
+class Recipe {
+  date = new Date();
+}
