@@ -16,6 +16,7 @@ class Recipe {
 
 const section = document.querySelector("section");
 const form = document.querySelector(".form");
+const overview = document.querySelector(".recipe-overview");
 const inputTitle = document.querySelector("#title");
 const inputTime = document.querySelector("#time");
 const inputKind = document.querySelector("#kind");
