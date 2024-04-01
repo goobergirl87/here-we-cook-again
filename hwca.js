@@ -31,6 +31,15 @@ class Library {
   }
 
   newRecipe(e) {
+    e.preventDefault();
+
+    const title = inputTitle.value;
+    const time = inputTime.value;
+    const kind = inputKind.value;
+    const woke = inputWoke.value;
+    const ingredients = inputIngredients.value;
+    const prep = inputPrep.value;
+
     let recipe;
     recipe = new Recipe(title, time, kind, wokeness, ingredients, preparation);
   }
