@@ -11,6 +11,54 @@
     <header>
       <h1>...here we cook again</h1>
     </header>
-    <section></section>
+    <main-section>
+      <div class="top">
+      <h2>Add a new recipe</h2>
+      <form class="form hide">
+        <div class="formbox">
+          <label for="title">title</label>
+          <input type="text" id="title" required />
+        </div>
+        <div class="formbox">
+          <label for="time">time</label>
+          <input type="text" id="time" required />
+        </div>
+        <div class="formbox">
+          <label for="kind">kind</label>
+          <input type="text" id="kind" required />
+        </div>
+        <div class="formbox">
+          <label for="woke">wokeness level</label>
+          <select id="woke" name="woke">
+            <option value="veggie">veggie</option>
+            <option value="vegan">vegan</option>
+            <option value="fishy">fishy</option>
+            <option value="meaty">meaty</option>
+          </select>
+        </div>
+        <div class="formbox">
+          <label for="ingredients">ingredients, seperate by ","</label>
+          <input type="text" id="ingredients" required />
+        </div>
+        <div class="formbox">
+          <label for="prep">preparation, seperate steps by ","</label>
+          <input type="text" id="prep" required />
+        </div>
+        <div class="formbox">
+          <button id="btn">add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+    <div class="middle">
+      <div class="recipe-overview">
+        <div class="recipe-div">
+          <h3 class="title">Baguette</h3>
+          <h3 class="time">2 Stunden</h3>
+          <h3 class="kind">baking goods</h3>
+          </div>
+      </div>
+    </div>
+    </main-section>
   </body>
 </html>
