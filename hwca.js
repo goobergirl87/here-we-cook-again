@@ -26,6 +26,10 @@ const inputPrep = document.querySelector("#prep");
 class Library {
   recipeLibrary = [];
 
+  constructor() {
+    form.addEventListener("submit", this.newRecipe.bind(this));
+  }
+
   newRecipe(e) {
     let recipe;
     recipe = new Recipe(title, time, kind, wokeness, ingredients, preparation);
