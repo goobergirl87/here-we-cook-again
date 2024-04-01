@@ -14,6 +14,15 @@ class Recipe {
   }
 }
 
+const section = document.querySelector("section");
+const form = document.querySelector(".form");
+const inputTitle = document.querySelector("#title");
+const inputTime = document.querySelector("#time");
+const inputKind = document.querySelector("#kind");
+const inputWoke = document.querySelector("#woke");
+const inputIngredients = document.querySelector("#ingredients");
+const inputPrep = document.querySelector("#prep");
+
 class Library {
   recipeLibrary = [];
 
