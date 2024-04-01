@@ -41,7 +41,22 @@ class Library {
     const prep = inputPrep.value;
 
     let recipe;
-    recipe = new Recipe(title, time, kind, wokeness, ingredients, preparation);
+    recipe = new Recipe(title, time, kind, woke, ingredients, prep);
+
+    this.renderRecipe(recipe);
+
+    this.recipeLibrary.push(recipe);
+  }
+
+  renderRecipe(recipe) {
+    let html = `
+    <div class="recipe-div">
+      <h3 class="title">${recipe.title}</h3>
+      <h3 class="time">${recipe.time}</h3>
+      <h3 class="kind">${recipe.kind}</h3>
+      </div>`;
+
+    overview.insertAdjacentHTML("afterbegin", html);
   }
 }
 
