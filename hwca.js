@@ -84,6 +84,14 @@ class Library {
       </div>`;
 
     overview.insertAdjacentHTML("afterbegin", html);
+  }
+
+  setLocalStorage() {
+    localStorage.setItem("recipes", JSON.stringify(this.recipeLibrary));
+  }
+
+  getLocalStorage() {
+    const data = JSON.parse(localStorage.getItem("recipes"));
 
     let coll = document.getElementsByClassName("recipe-div");
     let i;
