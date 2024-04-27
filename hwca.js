@@ -90,6 +90,8 @@ function showHideForm() {
   form.classList.toggle("hide");
 }
 
+toggleFormButton.addEventListener("click", showHideForm);
+
 const library = new Library();
 const brot = new Recipe(
   "brot",
