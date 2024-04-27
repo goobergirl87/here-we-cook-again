@@ -30,6 +30,9 @@ class Library {
 
   constructor() {
     form.addEventListener("submit", this.newRecipe.bind(this));
+
+    // Get data from local storage
+    this.getLocalStorage();
   }
 
   newRecipe(e) {
