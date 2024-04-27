@@ -85,6 +85,9 @@ class Library {
     }
   }
   }
+
+function showHideForm() {
+  form.classList.toggle("hide");
 }
 
 const library = new Library();
