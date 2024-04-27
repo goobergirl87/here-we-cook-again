@@ -51,6 +51,8 @@ class Library {
     this.renderRecipe(recipe);
 
     this.recipeLibrary.push(recipe);
+
+    this.setLocalStorage();
   }
 
   renderRecipe(recipe) {
