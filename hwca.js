@@ -91,7 +91,16 @@ class Library {
       <h3 class="title">${recipe.title}</h3>
       <h3 class="time">${recipe.time}</h3>
       <h3 class="kind">${recipe.kind}</h3>
-      </div>`;
+      </div>
+      <div class="content">
+        <p class="ingr">Ingredients</p>
+        <div class="content-item">${ingredientsFormatted(
+          recipe.ingredients
+        )}</div>
+        <p class="prep">Preparation</p>
+        <div class="content-item">${prepFormatted(recipe.prep)}</div>
+      </div>
+      `;
 
     overview.insertAdjacentHTML("afterbegin", html);
   }
