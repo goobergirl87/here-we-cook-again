@@ -126,6 +126,23 @@ class Library {
         }
       });
     }
+  }
+
+  setLocalStorage() {
+    localStorage.setItem("recipes", JSON.stringify(this.recipeLibrary));
+  }
+
+  getLocalStorage() {
+    const data = JSON.parse(localStorage.getItem("recipes"));
+
+    if (!data) return;
+
+    this.recipeLibrary = data;
+
+    this.recipeLibrary.forEach((rec) => {
+      this.renderRecipe(rec);
+    });
+  }
 
   reset() {
     localStorage.removeItem("recipes");
