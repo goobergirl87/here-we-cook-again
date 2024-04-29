@@ -112,6 +112,10 @@ class Library {
         }
       });
     }
+
+  reset() {
+    localStorage.removeItem("recipes");
+    location.reload();
   }
   }
 
