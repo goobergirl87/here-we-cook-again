@@ -173,7 +173,11 @@ class Library {
   }
 
 function showHideForm() {
-  form.classList.toggle("hide");
+  form.classList.toggle("hidden");
+  toggleFormButton.textContent =
+    toggleFormButton.textContent === "Add a new recipe"
+      ? "Hide form"
+      : "Add a new recipe";
 }
 
 toggleFormButton.addEventListener("click", showHideForm);
