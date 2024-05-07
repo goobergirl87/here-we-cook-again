@@ -147,6 +147,25 @@ class Library {
     });
   }
 
+  searchRecipe(e) {
+    const allRecDiv = document.querySelectorAll(".title");
+    const value = e.target.value.toLowerCase();
+
+    allRecDiv.forEach((rec) => {
+      const isVisible = // isVisible is true, if it includes the value
+        rec.innerHTML.toLowerCase().includes(value);
+      rec.closest(".recipe-div").classList.toggle("hide", !isVisible);
+    });
+  }
+
+  // deleteBook(e) {
+  //   const clickedSpot = e.target; //saving the spot, where the click happened
+  //   const bookIndex = clickedSpot.closest("div").id; // selecting the id of the closest p element
+  //   const book = clickedSpot.closest("div");
+  //   mainContent.removeChild(book);
+  //   myLibrary.splice(bookIndex, 1);
+  // }
+
   reset() {
     localStorage.removeItem("recipes");
     location.reload();
