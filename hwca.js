@@ -99,6 +99,9 @@ class Library {
         )}</div>
         <p class="prep">Preparation</p>
         <div class="content-item">${prepFormatted(recipe.prep)}</div>
+        <div class="recipe-div-bottom">
+        <button class="edit-button">edit</button>
+        <button class="delete-button">delete</button>
       </div>
       `;
 
