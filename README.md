@@ -18,3 +18,5 @@ So here's the list of my current to-do:
 - filter by stuff that is in our fridge
 
 Stay tuned!
+
+![HWCA- Flowchart](https://github.com/goobergirl87/here-we-cook-again/assets/97094267/f76a4e08-5a08-406f-9edd-cedb4861731e)
