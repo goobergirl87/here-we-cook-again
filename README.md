@@ -8,7 +8,7 @@ Easy to read.
 Different filters, that matter to us.
 An easy form to add new recipes. 
 
-I'm still working on this, there are still some features, that will upgrade our cooking life. My boyfriend is American, I'm German. So what is up with cups??? And why are there not only American, but also British cups. We defintely need a converter for measuring. 
+I'm still working on this, there are a lot of features, that will make this website a perfect cooking companion. My boyfriend is American, I'm German. So what is up with cups??? And why are there not only American, but also British cups. We defintely need a converter for measuring. 
 
 So here's the list of my current to-do:
 - make delete & edit button work
