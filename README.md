@@ -8,7 +8,7 @@ Easy to read.
 Different filters, that matter to us.
 An easy form to add new recipes. 
 
-I'm still working on this, there are a lot of features, that will make this website a perfect cooking companion. My boyfriend is American, I'm German. So what is up with cups??? And why are there not only American, but also British cups. We defintely need a converter for measuring. 
+This project is work in progress, there are a lot of features, that will make this website a perfect cooking companion. My boyfriend is American, I'm German. So what is up with cups??? And why are there not only American, but also British cups. We defintely need a converter for measuring. 
 
 So here's the list of my current to-do:
 - make delete & edit button work
@@ -17,6 +17,6 @@ So here's the list of my current to-do:
 - add source of the recipe
 - filter by stuff that is in our fridge
 
-Stay tuned!
+Have a look at my graphics to understand the project and path to completing it more!
 
 ![HWCA- Flowchart](https://github.com/goobergirl87/here-we-cook-again/assets/97094267/f76a4e08-5a08-406f-9edd-cedb4861731e)
